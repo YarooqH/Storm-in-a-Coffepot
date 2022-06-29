@@ -1,3 +1,43 @@
 .logo {
     width: 40px;
 }
+
+.nav-head{
+    font-size: 1rem;
+    font-family: Varela Round, sans-serif;
+    font-weight: 600;
+}
+
+.main-head{
+    font-size: 3.5rem;
+    font-family: Varela Round, sans-serif;
+    font-weight: 700;
+}
+
+.main-sub-head{
+    font-size: 1.2rem;
+    font-family: Varela Round, sans-serif;
+    font-weight: 500;
+}
+
+.direction-btn{
+    margin-top: 1rem;
+}
+
+.hr{
+    margin-top: 3rem;
+    width: 4.5rem;
+    height: 0.3rem;
+    background-color: #000;
+}
+
+.direction-head {
+font-weight: 800;
+font-size: 1.5rem;
+font-family: Varela Round, sans-serif;
+}
+
+.map{
+width:75vw;
+height:80vh
+}
