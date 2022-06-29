@@ -50,7 +50,7 @@ header {
 }
 
 .direction-head {
-font-weight: 800;
+font-weight: 700;
 font-size: 1.5rem;
 font-family: Varela Round, sans-serif;
 }
@@ -59,3 +59,9 @@ font-family: Varela Round, sans-serif;
 width:75vw;
 height:80vh
 }
+
+/* .info-head{
+    font-weight: 400;
+font-size: 1.5rem;
+font-family: Varela Round, sans-serif;
+} */
