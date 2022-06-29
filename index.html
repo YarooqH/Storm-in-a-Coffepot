@@ -12,18 +12,75 @@
     <div class="container mx-auto flex flex-wrap p-5 md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <img class="logo" src="./logo1.png" alt="logo">
-        <span class="ml-3 text-xl">Storm in a Coffeepot</span>
+        <span class="ml-3 text-3xl">Storm in a Coffeepot</span>
       </a>
       <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 hover:text-gray-900">First Link</a>
-        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+        <button class="inline-flex items-center border-0 py-3 px-3 focus:outline-none hover:bg-gray-200 rounded text-2xl text-base mt-4 md:mt-0">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M497.1 222.1l-208.1-208.1c-9.364-9.364-21.62-14.04-33.89-14.03C243.7 .0092 231.5 4.686 222.1 14.03L14.03 222.1C4.676 231.5 .0002 243.7 .0004 255.1c.0002 12.26 4.676 24.52 14.03 33.87l208.1 208.1C231.5 507.3 243.7 511.1 256 511.1c12.26 0 24.52-4.677 33.87-14.03l208.1-208.1c9.352-9.353 14.03-21.61 14.03-33.87C511.1 243.7 507.3 231.5 497.1 222.1zM410.5 252l-96 84c-10.79 9.545-26.53 .9824-26.53-12.03V272H223.1l-.0001 48C223.1 337.6 209.6 352 191.1 352S159.1 337.6 159.1 320V240c0-17.6 14.4-32 32-32h95.1V156c0-13.85 16.39-20.99 26.53-12.03l96 84C414 231 415.1 235.4 415.1 240S414 249 410.5 252z"/></svg>        
+          Get Directions  
+        </button>
         </nav>      
     </div>
   </header>
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 items-center justify-center flex-col">
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Storm in a Coffeepot</h1>
+        <p class="mb-4 leading-relaxed">Cafe in Munich.</p>
+        <!-- <p class="mb-8 leading-relaxed">Open till .</p> -->
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">Get Directions</button>
+          <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="slider"> 
+    <!-- picture 01 -->
+    <div class="slide active-slide">
+      <div class="container">
+           <img src="http://dogsdiscovered.com/wp-content/uploads/2011/03/growling-dog.jpg"> 
+  
+      </div>
+    </div>
+    <!-- picture 02 -->
+    <div class="slide">
+      <div class="container">
+          <img src="https://pbs.twimg.com/profile_images/498611745100156928/1x9OADbM_400x400.jpeg"> 
+      </div>
+    </div>
+    <!-- picture 03 -->
+    <div class="slide">
+      <div class="container">
+          <img src="https://pbs.twimg.com/profile_images/473535319090819074/6j-F-_N-_400x400.jpeg">
+      </div>
+    </div>
+    <!-- picture 04 -->
+    <div class="slide">
+      <div class="container">
+           <img src="https://cdn2.bigcommerce.com/server3800/b0iqeya/product_images/uploaded_images/wet-dog.png?t=1409100694">
+      </div>
+    </div>
+    <!-- picture 05 -->
+    <div class="slide">
+      <div class="container">
+           <img src="https://4.bp.blogspot.com/_4vn24YA-Rc4/Sm6yCChb-PI/AAAAAAAAA8Q/gS5WgIYb754/s400/dogs+color+vision.PNG">
+      </div>
+    </div>
+  </div>  
+  <!-- Slider nav -->
+  <div class="slider-nav"> 
+    <a href="" class="arrow-prev"><img src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+    <ul class="slider-dots">
+      <li class="dot active-dot">&bull;</li>
+      <li class="dot">&bull;</li>
+      <li class="dot">&bull;</li>
+      <li class="dot">&bull;</li>
+      <li class="dot">&bull;</li>
+    </ul>
+    <a href="" class="arrow-next"><img src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a> 
+  </div>
+  <script src="main.js"></script>
 
   <!-- <h1> Hello bois</h1> -->
 </html>
